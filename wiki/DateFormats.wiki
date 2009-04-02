@@ -1,12 +1,11 @@
 #summary Date formats supported by fpsCalendar, and making your own date formats
 
 == Supported date formats ==
-
 There are 3 supported date formats at the moment:
  * native (DD.MM.YYYY),
  * database (YYYY-MM-DD),
  * american (MM/DD/YYYY).
-
+== Your own date formats ==
 Not enough for you? You may *easily* and *quickly* create your own date formats!
 fpsCalendar has an object `fpsCalendar.dateFormats`, in which properties all date formats are stored.
 To add your own date format you should make a new property in `fpsCalendar.dateFormats` assigning to it an object with *2 methods*:
