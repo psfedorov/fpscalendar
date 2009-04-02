@@ -20,7 +20,7 @@ When assigning fpsCalendar to an element, you may pass some parameters, like ena
 {{{
 fpsCalendar.assignTo($('thirdInput'), {enableClear: false, dateFormat: 'database'});
 }}}
-You may assign fpsCalendar either to inputs or to divs and spans or to *both*. For example, you may assign the calendar to a span (with a user friendly date format) and to a hidden field (with a datebase format), so when the date for a span is selected, the same date in needed format will be inserted in a hidden field.
+You may assign fpsCalendar either to inputs or to divs and spans or to *both*. For example, you may assign the calendar to a span (with a user friendly date format) and to a hidden field (with a database format), so when the date for a span is selected, the same date in needed format will be inserted in a hidden field.
 {{{
 fpsCalendar.assignTo($('someElement'), {dateFormat: 'american'}).appendContainer($('secondInput'), {dateFormat: 'database'});
 }}}
