@@ -2,10 +2,23 @@
 
 == fpsCalendar Documentation ==
 
-Add your content here.
+First you should include the necessary files in oyur page:
+{{{
+<link rel="stylesheet" href="fpscalendar.css" type="text/css"/>
+<script type="text/javascript" src="prototype-1.6.0.3.js"></script>
+<script type="text/javascript" src="fpscalendar-1.2.1.js"></script>
+}}}
+Then you may assign fpsCalendar to the elements of your page. This is as easy as this:
+{{{
+<input type="text" name="birth_date" id="firstInput"/>
+<script type="text/javascript">
+    fpsCalendar.assignTo($('firstInput'));
+</script>
+}}}
+The `fpsCalendar.assignTo` function will insert the image next to the given element. A click to the image will show the calendar.
 
 
-= Details =
+
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
