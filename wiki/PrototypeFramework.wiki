@@ -3,5 +3,6 @@
 == What is Prototype Framework ==
 
 Citation from Prototype's [http://prototypejs.org/ official web-site]:
-
-  Prototype is a JavaScript Framework that aims to ease development of dynamic web applications.
+{{{
+Prototype is a JavaScript Framework that aims to ease development of dynamic web applications.
+}}}
