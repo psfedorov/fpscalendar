@@ -1,6 +1,6 @@
-#summary fpsCalendar Documentation
+#summary fpsCalendar documentation
 
-== fpsCalendar Documentation ==
+== fpsCalendar documentation ==
 
 First you should include the necessary files in your page:
 {{{
