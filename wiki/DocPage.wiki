@@ -2,7 +2,7 @@
 
 == fpsCalendar Documentation ==
 
-First you should include the necessary files in oyur page:
+First you should include the necessary files in your page:
 {{{
 <link rel="stylesheet" href="fpscalendar.css" type="text/css"/>
 <script type="text/javascript" src="prototype-1.6.0.3.js"></script>
