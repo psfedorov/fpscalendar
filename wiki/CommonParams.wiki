@@ -1,0 +1,11 @@
+#summary Common parameters of fpsCalendar
+
+== fpsCalendar common parameters ==
+
+Common parameters are customized by calling the function `fpsCalendar.setParams` with an object containing needed parameters as an argument:
+{{{
+fpsCalendar.setParams({'calendarImg': '/media/img/calendar.jpg', firstDayOfWeek: 0, fadeInTime: 400});
+}}}
+Here is a list of all available parameters:
+ * `calendarImg` - string containing a link to an image of a calendar. Default is `'fpscalendar.png'`.
+ * `daysOfWeek` - array with abbreviations of names of week days. Default is `['SU', 'MO', 'TU', 'WE', 'TH', 'FR', 'SA']`.
