@@ -1,5 +1,5 @@
 #summary Parameters of fpsCalendar instances
 
-= Parameters of fpsCalendar instances =
+== Parameters of fpsCalendar instances ==
 
 Coming soon.
