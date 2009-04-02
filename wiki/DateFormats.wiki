@@ -11,7 +11,7 @@ Not enough for you? You may *easily* and *quickly* create your own date formats!
 fpsCalendar has an object `fpsCalendar.dateFormats`, in which properties all date formats are stored.
 To add your own date format you should make a new property in `fpsCalendar.dateFormats` assigning to it an object with *2 methods*:
  * buildDate(year, month, day) => str. It is used to get the representation of a date. The given arguments are year, month (in "human-style" numeration) and day. The method should return a string.
- * extractDate(str) => [year, month, day]. It is used to extract a date from it's string representation. The given argument is a date representation string. The method should return an Array containing year, month (in "human-style" numeration) and day.
+ * extractDate(str) => ![year, month, day]. It is used to extract a date from it's string representation. The given argument is a date representation string. The method should return an Array containing year, month (in "human-style" numeration) and day.
 
 Here is an example of code where a 'database' format is created.
 {{{
