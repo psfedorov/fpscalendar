@@ -26,4 +26,4 @@ fpsCalendar.assignTo($('someElement'), {dateFormat: 'american'}).appendContainer
 }}}
 The `fpsCalendar.assignTo` function returns new fpsCalendar instance, so you may call instance's method immediately.
 
-Also, see [DateFormats Supported date formats], [CommonParams Common Parameters]
+Also, see [DateFormats Supported date formats], [CommonParams Common Parameters], InstancesParams
