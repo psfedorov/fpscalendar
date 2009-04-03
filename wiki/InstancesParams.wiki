@@ -7,10 +7,10 @@ Parameters of new fpsCalendar instances are passed, when the function `fpsCalend
 fpsCalendar.assignTo($('fourthInput'), {enableClear: false, yearRange: [2, 2], userAfterInsertDate: myCallback});
 }}}
 Here is a list of all available options:
- * enableClear - boolean value, which defines the "clear" link will be showed or will not for this calendar instance. Default is `true`.
- * yearRange - array of two integer numbers, which defines the year range (- and +) in the year selection element. Default is `[100, 50]`.
- * dateFormat - string containing a name of a date format to use. Default is `'native'`. For available formats, see DateFormats page.
- * userAfterInsertDate - callback, which will be executed when the user has selected the date and the date has been inserted into an element.
+ * `enableClear` - boolean value, which defines the "clear" link will be showed or will not for this calendar instance. Default is `true`.
+ * `yearRange` - array of two integer numbers, which defines the year range (- and +) in the year selection element. Default is `[100, 50]`.
+ * `dateFormat` - string containing a name of a date format to use. Default is `'native'`. For available formats, see DateFormats page.
+ * `userAfterInsertDate` - callback, which will be executed when the user has selected the date and the date has been inserted into an element.
 The function `fpsCalendar.assignTo` returns a new fpsCalendar instance, which has a method `appendContainer`, which allows you to add another element to one fpsCalendar instance: when the user has selected the date, it will also be inserted in this container. You may specify different date format to additional containers.
 {{{
 <span id="someElement"></span>
