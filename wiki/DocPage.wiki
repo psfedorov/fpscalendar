@@ -6,7 +6,7 @@ First you should include the necessary files in your page:
 {{{
 <link rel="stylesheet" href="fpscalendar.css" type="text/css"/>
 <script type="text/javascript" src="prototype-1.6.0.3.js"></script>
-<script type="text/javascript" src="fpscalendar-1.2.1.js"></script>
+<script type="text/javascript" src="fpscalendar-1.2.2.js"></script>
 }}}
 Then you may assign fpsCalendar to the elements of your page. This is as easy as this:
 {{{
