@@ -5,8 +5,8 @@
 First you should include the necessary files in your page:
 {{{
 <link rel="stylesheet" href="fpscalendar.css" type="text/css"/>
-<script type="text/javascript" src="prototype-1.6.0.3.js"></script>
-<script type="text/javascript" src="fpscalendar-1.2.3.js"></script>
+<script type="text/javascript" src="prototype-1.6.1.js"></script>
+<script type="text/javascript" src="fpscalendar-1.2.4-min.js"></script>
 }}}
 Then you may assign fpsCalendar to the elements of your page. This is as easy as this:
 {{{
@@ -26,4 +26,4 @@ fpsCalendar.assignTo($('someElement'), {dateFormat: 'american'}).appendContainer
 }}}
 The `fpsCalendar.assignTo` function returns new fpsCalendar instance, so you may call instance's method immediately.
 
-Also, see [DateFormats Supported date formats], [CommonParams Common Parameters], InstancesParams
+Also, see [DateFormats Supported date formats], [CommonParams Common Parameters], InstancesParams, ChangeLog.
