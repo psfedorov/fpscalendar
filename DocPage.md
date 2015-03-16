@@ -1,0 +1,27 @@
+## fpsCalendar documentation ##
+
+First you should include the necessary files in your page:
+```
+<link rel="stylesheet" href="fpscalendar.css" type="text/css"/>
+<script type="text/javascript" src="prototype-1.6.1.js"></script>
+<script type="text/javascript" src="fpscalendar-1.2.4-min.js"></script>
+```
+Then you may assign fpsCalendar to the elements of your page. This is as easy as this:
+```
+<input type="text" name="birth_date" id="firstInput"/>
+<script type="text/javascript">
+    fpsCalendar.assignTo($('firstInput'));
+</script>
+```
+The `fpsCalendar.assignTo` function will insert the image next to the given element. A click to the image will trigger the calendar to show.
+When assigning fpsCalendar to an element, you may pass some parameters, like enabling/disabling the "clear" link, date format and a function to be called after date insertion.
+```
+fpsCalendar.assignTo($('thirdInput'), {enableClear: false, dateFormat: 'database'});
+```
+You may assign fpsCalendar either to inputs or to divs and spans or to **both**. For example, you may assign the calendar to a span (with a user friendly date format) and to a hidden field (with a database format), so when the date for a span is selected, the same date in needed format will be inserted in a hidden field.
+```
+fpsCalendar.assignTo($('someElement'), {dateFormat: 'american'}).appendContainer($('secondInput'), {dateFormat: 'database'});
+```
+The `fpsCalendar.assignTo` function returns new fpsCalendar instance, so you may call instance's method immediately.
+
+Also, see [Supported date formats](DateFormats.md), [Common Parameters](CommonParams.md), InstancesParams, ChangeLog.
